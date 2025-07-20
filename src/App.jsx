@@ -5,7 +5,11 @@ import AddressInputGpt4oMini2 from "./address-components/AddressInput4oMini2";
 import AddressInputGpt4oMini3 from "./address-components/AddressInput4oMini3";
 import AddressInputGemini25Flash1 from "./address-components/AddressInputGemini25Flash1";
 import AddressInputGemini25Flash2 from "./address-components/AddressInputGemini25Flash2";
-import AddressInputDeepseek1 from "./address-components/AddressInputDeepseek1";
+import AddressInputDeepseek from "./address-components/AddressInputDeepseek";
+import AddressInputGrok from "./address-components/AddressInputGrok";
+import AddressInputMistral from "./address-components/AddressInputMistral";
+import AddressInputGemini25Pro from "./address-components/AddressInputGemini25Pro";
+import AddressInputLlama3370B from "./address-components/AddressInputLlama3370B";
 
 function App() {
   const handleAddressSubmit = (addressData) => {
@@ -35,8 +39,24 @@ function App() {
       <AddressInputGemini25Flash2 onSubmit={handleAddressSubmit} />
       <hr />
 
-      <h1>Address Input Form - DeepSeek variant 1</h1>
-      <AddressInputDeepseek1 onSubmit={handleAddressSubmit} />
+      <h1>Address Input Form - DeepSeek</h1>
+      <AddressInputDeepseek onSubmit={handleAddressSubmit} />
+      <hr />
+
+      <h1>Address Input Form - Grok</h1>
+      <AddressInputGrok onSubmit={handleAddressSubmit} />
+      <hr />
+
+      <h1>Address Input Form - Mistral</h1>
+      <AddressInputMistral onSubmit={handleAddressSubmit} />
+      <hr />
+
+      <h1>Address Input Form - Gemini 2.5 Pro</h1>
+      <AddressInputGemini25Pro onSubmit={handleAddressSubmit} />
+      <hr />
+
+      <h1>Address Input Form - Llama 3.3 70B</h1>
+      <AddressInputLlama3370B onSubmit={handleAddressSubmit} />
       <hr />
     </>
   );
