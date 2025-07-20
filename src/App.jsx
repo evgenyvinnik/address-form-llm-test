@@ -31,7 +31,7 @@ function App() {
       <AddressInputGpt4oMini3 onSubmit={handleAddressSubmit} />
       <hr />
 
-      <h1>Address Input Form - Gemini 2.5 (Google) varian 1</h1>
+      <h1>Address Input Form - Gemini 2.5 (Google) variant 1</h1>
       <AddressInputGemini25Flash1 onSubmit={handleAddressSubmit} />
       <hr />
 
