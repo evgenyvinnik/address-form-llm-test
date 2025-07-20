@@ -1,12 +1,24 @@
-# React + Vite
+This repo is a result of the respond from the https://www.promptcannon.com/ website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Prompt**
 
-Currently, two official plugins are available:
+```
+Implement React component for US Address input.
+I want to use MUI component library for this.
+Make sure it has the following lines:
+Address line 1
+Address line 2 (marked as optional)
+City
+State (in the form of a combobox)
+Zipcode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It should have one single Submit button and a callback function that would return json object with the address data to the parent component
 
-## Expanding the ESLint configuration
+Make sure component is easy to reuse in our existing code, and it is fully accessible and it is possible to navigate it using keyboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Provide clear details for deployment and testing
+```
+
+Basically I have asked a bunch of LLMs to generate me the same component.
+
+YouTube demo: https://youtu.be/L6kWn7zOnak
